@@ -1,1 +1,1 @@
-angular.module("productManagement", [])
+angular.module("productManagement", []);
