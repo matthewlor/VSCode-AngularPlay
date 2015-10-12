@@ -1,10 +1,10 @@
-interface IProductListViewModel {
+interface IProductListCtrl {
 	title: string;
 	showImage: boolean;
 	products: any[];
 }
 
-class ProductListCtrl implements IProductListViewModel {
+class ProductListCtrl implements IProductListCtrl {
 	title: string;
 	showImage: boolean;
 	products: any[];
